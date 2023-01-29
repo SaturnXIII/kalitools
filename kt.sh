@@ -1,20 +1,22 @@
 #!/bin/bash
 
-# Ajout de dépôt Kali Linux
-sudo echo "deb http://http.kali.org/kali kali-rolling main non-free contrib" >> /etc/apt/sources.list
-
 # Mise à jour des paquets
 sudo apt-get update
 
-# Installation de tous les outils de Kali Linux
-sudo apt-get install kali-linux-full
-
-# Installation de tous les outils de Kali Linux spécifiques à une catégorie
-sudo apt-get install kali-linux-web
-sudo apt-get install kali-linux-pwtools
-sudo apt-get install kali-linux-snmp
-
-# Installation d'outils individuels
+# Installation des outils de pentest
 sudo apt-get install nmap
 sudo apt-get install aircrack-ng
 sudo apt-get install sqlmap
+sudo apt-get install metasploit-framework
+sudo apt-get install netcat
+sudo apt-get install net-tools
+sudo apt-get install wireshark
+sudo apt-get install john
+sudo apt-get install hashcat
+sudo apt-get install burpsuite
+
+# Installation des outils de sécurité
+sudo apt-get install openvpn
+sudo apt-get install openssh-server
+sudo apt-get install fail2ban
+sudo apt-get install ufw
