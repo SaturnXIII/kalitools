@@ -70,5 +70,5 @@ curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/t
 chmod 755 msfinstall &&
 ./msfinstall
 figlet "Metasploit" | lolcat
-
+figlet "e---------e" | lolcat
 figlet "Install done" | lolcat
