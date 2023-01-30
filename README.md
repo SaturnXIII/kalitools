@@ -5,8 +5,18 @@ In a first part it was created by chatgpt then I modified it so that it is more 
 
 > ## Information🔍 ##
 Tools install: nmap, aircrack-ng, sqlmap, metasploit-framework, netcat, net-tools, wireshark, john, hashcat, burpsuite, openvpn, openssh-server, fail2ban, ufw.
+
+> ## Install📂 ##
+`git clone https://github.com/SaturnXIII/kalitools.git`
+
+`cd kalitools`
+
+`chmod +x kt.sh`
+
+`./kt.sh`
 ![image](https://user-images.githubusercontent.com/110695125/215347723-00ca9a58-f460-4209-9804-1ef757de9e8e.png)
 ![image](https://user-images.githubusercontent.com/110695125/215347822-f8fd1f37-3b33-465a-a50d-3e482ee6cb85.png)
+
 
 
 
