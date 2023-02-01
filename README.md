@@ -14,6 +14,9 @@ In a first part it was created by chatgpt then I modified it so that it is more 
 
 `./kt.sh`
 
+for more tools :
+`./kt2.sh`
+
 > ## Information🔍 ##
 Tools install: nmap, aircrack-ng, sqlmap, metasploit-framework, netcat, net-tools, wireshark, john, hashcat, burpsuite, openvpn, openssh-server, fail2ban, ufw.
 ![image](https://user-images.githubusercontent.com/110695125/215347723-00ca9a58-f460-4209-9804-1ef757de9e8e.png)
